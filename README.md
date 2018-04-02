@@ -17,13 +17,13 @@ $ sudo apt-get install linux-headers-4.4.0-116-generic
 ```bash
 $ sudo pip install virtualenv virtualenvwrapper
 ```
-### add Python virtualenv in .bashrc
+### add python virtualenv in .bashrc
 ```bash
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 $ mkvirtualenv py3
 ```
-## disable Nouveau
+## disable nouveau
 ```bash
 $ lsmod | grep nouveau
 $ cat /etc/modprobe.d/blacklist-nouveau.conf
